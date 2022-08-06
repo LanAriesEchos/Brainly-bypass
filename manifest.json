@@ -1,0 +1,16 @@
+{
+    "name": "Brainly Bypass",
+    "version": "1.1",
+    "manifest_version": 3,
+    "description": "Simple Brainly Bypass script originally made by b4rtuus updated for manifest_version 3 for google chrome.",
+    "author": "LanAriesEchos",
+    "icons": {
+        "128": "brainly.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://brainly.pl/*", "http://brainly.pl/*", "http://brainly.com/*"],
+            "js": ["index.js"]
+        }
+    ]
+}
